@@ -16,9 +16,9 @@ int max(int a, int b) {
 int lcs(char* vstup, char* opak, int dlzka, int dlzka_n) {
     dlzka_n += 1;
     int** pole;
-    pole = (int**)malloc(dlzka_n * sizeof(int*)); //tu si urobím riadky
-    for (int i = 0; i < dlzka_n; i++) { //tu prechádzam riadkami aby som do nich mohol robi ståpce
-        pole[i] = (int*)malloc(dlzka_n * sizeof(int)); //tu do každého riadku vytvorím stlpce
+    pole = (int**)malloc(dlzka_n * sizeof(int*)); //tu si urobÃ­m riadky
+    for (int i = 0; i < dlzka_n; i++) { //tu prechÃ¡dzam riadkami aby som do nich mohol robiÂ stÃ¥pce
+        pole[i] = (int*)malloc(dlzka_n * sizeof(int)); //tu do kaÅ¾dÃ©ho riadku vytvorÃ­m stlpce
     }
 
     /* ideme cez 'pole' kt. obsahuje dlzku LCS 'vstup' */
