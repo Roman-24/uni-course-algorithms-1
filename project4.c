@@ -13,7 +13,7 @@ void swap(char* x, char* y) { //funkcia na vymenenie dvoch prvkov
 int tsp(char* cesta, int rozmer, int** mesto, int *sucet) { //funcia prejde po domcekoch podla aktualnej permutacie cesty
 
     int nesucet = 0, riadok = 0;
-    for (riadok = 0; riadok < rozmer; riadok++) { //prech·dzanie riadkami
+    for (riadok = 0; riadok < rozmer; riadok++) { //prech√°dzanie riadkami
         nesucet += mesto[cesta[riadok] - 'A'][cesta[riadok + 1] - 'A']; //postupne zvysovanie suctu aktualnej cesty
         if (nesucet > * sucet) //ak je aktualny hladany sucet uz vacsi ako zatial najmensi najdeny sucet
             return nesucet; //tak ukonci funkciu (pre lepsiu efektivitu) 
@@ -41,7 +41,7 @@ void permute(char* cesta, int parameter, int rozmer, int** mesto, int* sucet) {
 
 int uvod(int** mesto, int rozmer) {
     int sucet = 9999999;
-    char* cesta = { NULL }; //vytvorenie pole kam sa budu ukladaù jednolive moznosti cesty
+    char* cesta = { NULL }; //vytvorenie pole kam sa budu uklada¬ù jednolive moznosti cesty
 
     if ((cesta = (char*)calloc(rozmer, sizeof(char))) == NULL) { //vytvorenie pola pre ukladanie cesticiek
         printf("nepodarilo sa pridelit pamat\n");
@@ -105,7 +105,7 @@ int main() {
 
                 sucty[pocet - 1] = uvod(mesto, rozmer); //spustenie riesenia problemu a ulozenie vysledku do pola
                 pocet++; //pocet vysledkov v poli
-                sucty = (int*)realloc(sucty, pocet * sizeof(int)); //realoknutie pola pri kaûdom novom vysledku
+                sucty = (int*)realloc(sucty, pocet * sizeof(int)); //realoknutie pola pri ka≈ædom novom vysledku
             }
             else {  //ak je rozmer matice nespravny tak koniec
                 printf("Nespavny rozmer\n"); 
