@@ -1,8 +1,8 @@
-# Algoritmy-1
-Projekty z predmetu Seminár z algoritmizácie a programovania 1
+# Workshop Algorithms 1 
+Projects from the course Seminar on Algorithmization and Programming 1
 
-Zadanie 1 - zamerané na sortovanie <br>
-Zadanie 2 - hľadanie najdlhšieho palindrómu a aj všetky takéto najdlhšie palindrómy <br>
-Zadanie 3 - koľko najmenej písmen je potrebné do správy doplniť, aby z nej bol palindróm <br>
+Task 1 - focused on sorting <br>
+Task 2 - finding the longest palindrome and all such longest palindromes <br>
+Task 3 - how many characters need to be added to a message to make it a palindrome <br>
 
-Semestrálne zadanie - Travelling salesman problem, riešené Brute-force prístupom
+Semester project (Task 4) - Travelling Salesman Problem, solved using a Brute-force approach
