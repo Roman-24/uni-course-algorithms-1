@@ -21,7 +21,7 @@ int najdi_najdlhsi_palin(char text[], char slovo[], char najdhlsi_pal[]) {
     int len = strlen(text);
     int naj = 0;
     char medzera[2] = {0};
-    medzera[0] = ' '; //pole s medzerou kt. sa bude vkladaù ak bude viac palindromov s rovnakou dlzkou
+    medzera[0] = ' '; //pole s medzerou kt. sa bude vklada¬ù ak bude viac palindromov s rovnakou dlzkou
     medzera[1] = '\0';
 
     for (int index = 0; index <= len; index++) { //index ide od zaciatku postupne po kazdom pismenku v stringu
