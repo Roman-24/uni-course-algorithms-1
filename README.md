@@ -1,4 +1,4 @@
-# Workshop Algorithms 1 
+# Uni course algorithms 1 
 Projects from the course Seminar on Algorithmization and Programming 1
 
 Task 1 - focused on sorting <br>
